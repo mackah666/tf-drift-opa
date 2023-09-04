@@ -1,9 +1,9 @@
 terraform {
-  cloud {
-    workspaces {
-      name = "learn-terraform-drift-and-opa"
-    }
-  }
+  # cloud {
+  #   workspaces {
+  #     name = "learn-terraform-drift-and-opa"
+  #   }
+  # }
 
   required_providers {
     aws = {
